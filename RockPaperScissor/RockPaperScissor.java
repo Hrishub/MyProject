@@ -59,11 +59,14 @@ public record RockPaperScissor() {
 
             System.out.print("You want to play again: Y/N? ");
             String PlayerWish = sc.nextLine();
+            System.out.print("Thanks for playing!!");
 
             if(!PlayerWish.equalsIgnoreCase("Y")){
                 break;
             }
         }
+
+        //Thanks For Playing
 
     }
 
