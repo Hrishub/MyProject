@@ -59,6 +59,7 @@ public record RockPaperScissor() {
 
             System.out.print("You want to play again: Y/N? ");
             String PlayerWish = sc.nextLine();
+            System.out.print("Thanks for playing!!");
 
             System.out.println("hhhhhhhhhh");
             /////////gitttttttttttttttt
@@ -67,6 +68,8 @@ public record RockPaperScissor() {
                 break;
             }
         }
+
+        //Thanks For Playing
 
     }
 
